@@ -1,0 +1,7 @@
+_target_: rl4co.models.TimeMatNet
+
+metrics:
+  train: ["loss", "reward", "reinforce_loss", "bl_val", "replay_val"]
+  val: ["reward"]
+  test: ["reward"]
+  log_on_step: True
