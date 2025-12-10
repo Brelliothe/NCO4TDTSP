@@ -124,7 +124,7 @@ class TimeDependentAdjacentMatrix:
         return enhanced_matrix
 
     def parse(self, filename, scale=1.0):
-        matrix = np.load('~/rl4co/data/tdtsp/' + filename +'.npy')
+        matrix = np.load('data/tdtsp/' + filename +'.npy')
         matrix = torch.tensor(matrix, dtype=torch.float32) * scale
         if filename == 'beijing':
             matrix = matrix.roll(2, dims=-1)

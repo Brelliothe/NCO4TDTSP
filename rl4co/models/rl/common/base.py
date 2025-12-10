@@ -136,11 +136,11 @@ class RL4COLitModule(LightningModule, metaclass=abc.ABCMeta):
         self.val_batch_size = train_bs if val_bs is None else val_bs
         self.test_batch_size = self.val_batch_size if test_bs is None else test_bs
 
-        if self.data_cfg["generate_default_data"]:
-            log.info(
-                "Generating default datasets. If found, they will not be overwritten"
-            )
-            generate_default_datasets(data_dir=self.data_cfg["data_dir"])
+        # if self.data_cfg["generate_default_data"]:
+        #     log.info(
+        #         "Generating default datasets. If found, they will not be overwritten"
+        #     )
+        #     generate_default_datasets(data_dir=self.data_cfg["data_dir"])
 
         log.info("Setting up datasets")
         self.train_dataset = self.wrap_dataset(
