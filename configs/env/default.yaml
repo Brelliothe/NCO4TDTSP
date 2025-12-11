@@ -1,0 +1,7 @@
+_target_: rl4co.envs.TDTSPEnv
+name: tdtsp
+
+generator_params:
+  num_loc: 20
+
+matrix_filename: "../ACO/data.csv"
