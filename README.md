@@ -16,7 +16,7 @@ pip install -e .
 2. Data Preparation
 
 We provide processed datasets for Beijing and Lyon directly in this repository.
-* Full processed dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/1JsWs0MwUXAyXLbD6VXeW4_GR8Utcuqz-/view?usp=drive_link). 
+* Full processed dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/1JsWs0MwUXAyXLbD6VXeW4_GR8Utcuqz-/view?usp=sharing). 
 * Customized dataset should be formed as a numpy array in shape `[nodes, nodes, horizon]`. 
 * All processed data files should be put `/data/tdtsp` folder by default. 
 
@@ -64,7 +64,7 @@ The code is built upon repo [RL4CO](https://github.com/ai4co/rl4co). The archite
 
 ## Data References
 
-The processed data is provided [here](https://drive.google.com/file/d/1JsWs0MwUXAyXLbD6VXeW4_GR8Utcuqz-/view?usp=drive_link). Raw data sources are listed below:
+The processed data is provided [here](https://drive.google.com/file/d/1JsWs0MwUXAyXLbD6VXeW4_GR8Utcuqz-/view?usp=sharing). Raw data sources are listed below:
 
 * [1] [Beijing data](https://github.com/hachinoone/DRLSolver4DTSP/blob/main/data_nodes/node_19.txt): Zhang et al. (2021) [Solving Dynamic Traveling Salesman Problems With Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/9537638).
 * [2] [Lyon data](https://perso.citi-lab.fr/csolnon/TDTSP.html): Melgarejo et al. (2015) [A Time-Dependent No-Overlap Constraint: Application to Urban Delivery Problems](https://link.springer.com/content/pdf/10.1007/978-3-319-18008-3_1).
